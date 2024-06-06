@@ -4,42 +4,42 @@
     text-decoration: none;
     list-style: none;
     font-family: "Ubuntu";
-  
-  }
-  
-  ::selection {
+
+}
+
+::selection {
     background: yellow;
     color: black;
-  }
-  
-  :root {
+}
+
+:root {
     --subtitle-color1: linear-gradient(to right, transparent, silver);
     --subtitle-color2: linear-gradient(to right, transparent, gray);
     --base-background: linear-gradient(to bottom, transparent, rgb(1, 1, 203));
     --header-background: rgb(0, 0, 0, 0.6)
-  }
-  
-  a:link {
+}
+
+a:link {
     color: silver;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: silver;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: black;
-  }
-  
-  a:active {
+}
+
+a:active {
     color: purple;
-  }
-  
-  ul>li {
+}
+
+ul>li {
     border-radius: 10px;
-  }
-  
-  header {
+}
+
+header {
     position: fixed;
     left: 0;
     top: 0;
@@ -55,19 +55,19 @@
     margin-left: 0px;
     margin-right: 0px;
     max-height: 5vh;
-  }
-  
-  .logo img {
+}
+
+.logo img {
     display: inline-block;
     width: 70px;
-  }
-  
-  [title] {
+}
+
+[title] {
     opacity: 0.5;
-  }
-  
-  
-  .menu {
+}
+
+
+.menu {
     width: 100%;
     background-color: transparent;
     display: flex;
@@ -75,77 +75,77 @@
     justify-content: space-evenly;
     align-items: center;
     padding-left: 0px;
-  }
-  
-  .menu li:hover {
+}
+
+.menu li:hover {
     background-color: white;
     transition: ease 0.5s;
     color: black;
-  
-  }
-  
-  body {
+
+}
+
+body {
     padding: 0px;
     margin: 0px;
     background-color: rgb(21, 21, 124);
     overflow-x: hidden;
     width: 100vw;
-  }
-  
-  main {
+}
+
+main {
     width: 100vw;
-  }
-  
-  
-  /* Header styling */
-  header a,
-  footer a {
+}
+
+
+/* Header styling */
+header a,
+footer a {
     border-radius: 20px;
     padding: 10px;
-  }
-  
-  header li {
+}
+
+header li {
     padding: 10px;
-  }
-  
-  header img,
-  footer img {
+}
+
+header img,
+footer img {
     filter: invert(100%);
-  }
-  
-  
-  
-  /* Hero Cover Section */
-  #cover {
+}
+
+
+
+/* Hero Cover Section */
+#cover {
     padding-top: 15%;
     padding-bottom: 10%;
     background-image: linear-gradient(to bottom,
-        rgb(0, 0, 0, 0),
-        rgba(46, 11, 247, 0.2) 90%), url('../assets/stadium-corner.jpg');
+            rgb(0, 0, 0, 0),
+            rgba(46, 11, 247, 0.2) 90%), url('../assets/stadium-corner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: silver;
     height: 24rem;
-  }
-  
-  #big-logo {
+}
+
+#big-logo {
     height: 100%;
     width: auto;
     display: flex;
     justify-content: center;
-  }
-  
-  #big-logo img {
+}
+
+#big-logo img {
     height: 100%;
     width: auto;
     display: flex;
     justify-self: center;
     filter: invert(100%);
-  }
+}
 
 /* Blur effect below Hero Cover  */
-  #block {
+#block {
     position: absolute;
     background: var(--base-background);
     height: 100px;
@@ -153,7 +153,7 @@
     z-index: 10001;
     bottom: 99%;
     filter: blur(30px);
-  }
+}
 
 /* First Article */
 #section1 {
@@ -161,33 +161,33 @@
     width: 100%;
     color: silver;
     position: relative;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin: 0px;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     background: var(--subtitle-color1);
     text-align: center;
-  
-  }
-  
-  p {
+
+}
+
+p {
     padding: 30px;
     margin: 0px
-  }
-  
-  #what {
+}
+
+#what {
     background: linear-gradient(to bottom, black, transparent);
     padding-top: 2%;
-  }
-  
-  #how {
+}
+
+#how {
     background: linear-gradient(to top, black, transparent);
-  }
-  
-  #article1-pics {
+}
+
+#article1-pics {
     background: linear-gradient(to bottom, black, transparent);
     width: 100%;
     display: flex;
@@ -197,22 +197,22 @@
     padding-top: 5%;
     padding-bottom: 5%;
     flex-wrap: nowrap;
-  
-  }
-  
-  #article1-pics picture {
+
+}
+
+#article1-pics picture {
     height: 300px;
-  }
-  
-  #article1-pics img {
+}
+
+#article1-pics img {
     max-width: 100%;
     max-height: 100%;
-  }
-  
-  #article1-pics #seriea {
+}
+
+#article1-pics #seriea {
     min-height: 100px;
     max-width: 100%;
-  }
+}
 
 /* Footer */
 
@@ -220,9 +220,9 @@ footer {
     background-color: black;
     color: white;
     width: 100vw;
-  }
-  
-  footer ul {
+}
+
+footer ul {
     margin: 0px;
     display: flex;
     flex-direction: row;
@@ -231,35 +231,35 @@ footer {
     padding: 0px;
     padding-top: 2%;
     padding-bottom: 2%;
-  }
-  
-  footer p {
+}
+
+footer p {
     box-sizing: border-box;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
     border: none;
     border-top: solid;
-  
-  }
-  
-  #bot-nav a:hover {
+
+}
+
+#bot-nav a:hover {
     color: white;
-  }
-  
-  #bot-nav li:hover:not(:last-child) {
+}
+
+#bot-nav li:hover:not(:last-child) {
     border: solid;
     border-width: 2px;
     border-color: silver;
     color: white;
-  }
-  
-  #bot-nav li:hover:last-child {
+}
+
+#bot-nav li:hover:last-child {
     opacity: 0.5;
     cursor: pointer;
-  }
+}
 
-  /* HTML5 Contact Form */
+/* HTML5 Contact Form */
 button {
     padding: 1%;
     background: var(--subtitle-color1);
@@ -270,33 +270,33 @@ button {
     width: 30%;
     cursor: pointer;
     font-size: 2rem;
-  }
-  
-  .btn-container {
+}
+
+.btn-container {
     padding-top: 3%;
     padding-bottom: 3%;
     display: flex;
     justify-content: center;
-  }
-  
-  #form-box {
+}
+
+#form-box {
     background: var(--base-background);
     width: 100%;
-  }
-  
-  #contact-form {
+}
+
+#contact-form {
     display: grid;
     grid-template-areas:
-      'h2 h2'
-      'first last'
-      'email phone';
+        'h2 h2'
+        'first last'
+        'email phone';
     grid-gap: 50px;
     margin: 20px;
     padding-right: 3%;
     padding-bottom: 3%;
-  }
-  
-  h2 {
+}
+
+h2 {
     text-align: center;
     grid-area: h2;
     padding-top: 1%;
@@ -304,63 +304,64 @@ button {
     width: 100%;
     background: var(--subtitle-color1);
     color: silver;
-  }
-  
-  #first-name {
+}
+
+#first-name {
     grid-area: first;
-  }
-  
-  #last-name {
+}
+
+#last-name {
     grid-area: last;
-  }
-  
-  #email-field {
+}
+
+#email-field {
     grid-area: email;
-  }
-  
-  #phone-field {
+}
+
+#phone-field {
     grid-area: phone;
-  }
-  
-  #contact-form label,
-  #contact-form input,
-  #contact-form select,
-  #contact-form textarea {
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
     margin: 4px;
     padding: 3px;
     margin-top: 0px;
     margin-bottom: 1px;
     display: block;
     width: 95%;
-  }
-  
-  #contact-form label {
-    text-align: left;
-  }
+}
 
-  /* Fonts */
+#contact-form label {
+    text-align: left;
+}
+
+/* Fonts */
 .ubuntu-light {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .ubuntu-regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 #menu-toggle {
-  display: none;
+    display: none;
 }
 
 .menu-button {
-  display: none;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-  border-radius: 4px;
-  text-align: center;
+    display: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
 }
 
 /* GALLERY STYLES */
@@ -370,130 +371,139 @@ button {
     padding: 40px;
     grid-template-columns: repeat(4, minmax(100px, 1fr));
     height: auto;
-    background-color: rgb(192, 192, 192,0.7);
-  }
-  .gallery-item {
+    background-color: rgb(192, 192, 192, 0.7);
+}
+
+.gallery-item {
     overflow: hidden;
-  
-  }
-  .gallery-item img {
+
+}
+
+.gallery-item img {
     filter: invert(0%);
     max-width: 100%;
     max-height: 100%;
     display: block;
-  }
+}
 
 /* FAQ styling */
-.FAQ{
+.FAQ {
     max-width: 600px;
     margin: 0 auto;
     background: var(--header-background);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
-  }
-  summary {
+    overflow: hidden;
+}
+
+summary {
     cursor: pointer;
     padding: 20px;
     background: var(--base-background);
-  }
+}
 
-  /* KEYFRAMES for animation */
+/* KEYFRAMES for animation */
 @keyframes ChangeColor {
     0% {
         color: silver;
     }
+
     50% {
         color: yellow;
     }
+
     100% {
         color: red;
     }
-  }
-  #error-404 {
-    font-size: 13vw; 
+}
+
+#error-404 {
+    font-size: 13vw;
     text-align: center;
     animation: ChangeColor 2s 1s infinite alternate ease-in-out;
-  }
+}
 
 
 /* Media Queries for Mobile Responsive Design */
 @media screen and (max-width: 640px) {
 
     header {
-      max-height: 10%;
-      top: 0%;
-      justify-content: center;
-      padding-right: 10px;
-      background: transparent;
+        max-height: 10%;
+        top: 0%;
+        justify-content: center;
+        padding-right: 10px;
+        background: transparent;
     }
-  
+
     .menu {
-      position: relative;
-      left: -100vw;
-      top: 13vh;
-      transition: left .55s ease;
-      flex-direction: column;
-      justify-content: flex-start;
+        position: relative;
+        left: -100vw;
+        top: 13vh;
+        transition: left .55s ease;
+        flex-direction: column;
+        justify-content: flex-start;
     }
-  
+
     .logo img {
-      width: 70px;
+        width: 70px;
     }
-  
+
     #article1-pics {
-      flex-direction: column;
-      padding-left: 5%;
-      padding-right: 5%;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
     }
-  
+
     #checkbox:checked~.menu {
-      left: -8vw;
-      border: solid;
-      border-color: red;
+        left: -8vw;
+        border: solid;
+        border-color: red;
     }
-  
+
     #menu-toggle {
-      display: block;
+        display: block;
     }
-  
+
     /* #checkbox:checked ~ .menu {
       display: flex;
       position: absolute
     } */
-  
+
     .menu-icon {
-      padding-right: 40px;
-      width: 60px;
+        padding-right: 40px;
+        width: 60px;
     }
-  
+
     .menu-button {
-      display: inline-block;
-      cursor: pointer;
+        display: inline-block;
+        cursor: pointer;
     }
-  
+
     footer ul {
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 0px;
-      padding-top: 2%;
-      padding-bottom: 2%;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
-  
+
     footer ul li {
-      padding: 4%;
+        padding: 4%;
     }
+
     footer a:hover {
-    border: solid;
-    border-width: 2px;
-    border-color: silver;
-    color: white;
+        border: solid;
+        border-width: 2px;
+        border-color: silver;
+        color: white;
     }
+
     .gallery-container {
         grid-template-columns: repeat(2, minmax(200px, 1fr));
         height: auto;
-      }
-      button {
+    }
+
+    button {
         padding: 1%;
         background: var(--subtitle-color1);
         border: none;
@@ -503,5 +513,11 @@ button {
         width: 30%;
         cursor: pointer;
         font-size: 1.5rem;
-      }
+    }
+
+    #error-404 {
+        font-size: 18vw;
+        text-align: center;
+    }
+
 }
