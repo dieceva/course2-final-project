@@ -143,7 +143,18 @@
     justify-self: center;
     filter: invert(100%);
   }
-  
+
+/* Blur effect below Hero Cover  */
+  #block {
+    position: absolute;
+    background: var(--base-background);
+    height: 100px;
+    width: 100%;
+    z-index: 10001;
+    bottom: 99%;
+    filter: blur(30px);
+  }
+
 /* First Article */
 #section1 {
     background: transparent;
