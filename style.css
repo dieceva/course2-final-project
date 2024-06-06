@@ -337,7 +337,7 @@ button {
   #contact-form label {
     text-align: left;
   }
-  
+
   /* Fonts */
 .ubuntu-light {
   font-family: "Ubuntu", sans-serif;
@@ -350,4 +350,15 @@ button {
   font-weight: 400;
   font-style: normal;
 }
-  
+#menu-toggle {
+  display: none;
+}
+
+.menu-button {
+  display: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
