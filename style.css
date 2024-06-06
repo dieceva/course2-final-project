@@ -398,17 +398,23 @@ button {
     background: var(--base-background);
   }
 
-
-
-
-
-
-
-
-
-
-
-
+  /* KEYFRAMES for animation */
+@keyframes ChangeColor {
+    0% {
+        color: silver;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: red;
+    }
+  }
+  #error-404 {
+    font-size: 13vw; 
+    text-align: center;
+    animation: ChangeColor 2s 1s infinite alternate ease-in-out;
+  }
 
 
 /* Media Queries for Mobile Responsive Design */
