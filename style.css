@@ -213,4 +213,49 @@
     min-height: 100px;
     max-width: 100%;
   }
-    
+  
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100vw;
+  }
+  
+  footer ul {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  footer p {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: none;
+    border-top: solid;
+  
+  }
+  
+  #bot-nav a:hover {
+    color: white;
+  }
+  
+  #bot-nav li:hover:not(:last-child) {
+    border: solid;
+    border-width: 2px;
+    border-color: silver;
+    color: white;
+  }
+  
+  #bot-nav li:hover:last-child {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
