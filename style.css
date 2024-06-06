@@ -163,7 +163,7 @@ footer img {
     position: relative;
 }
 
-h1 {
+h2 {
     margin: 0px;
     width: 100%;
     padding-top: 30px;
@@ -287,7 +287,7 @@ button {
 #contact-form {
     display: grid;
     grid-template-areas:
-        'h2 h2'
+        'h3 h3'
         'first last'
         'email phone';
     grid-gap: 50px;
@@ -296,9 +296,9 @@ button {
     padding-bottom: 3%;
 }
 
-h2 {
+h3 {
     text-align: center;
-    grid-area: h2;
+    grid-area: h3;
     padding-top: 1%;
     padding-bottom: 1%;
     width: 100%;

@@ -22,7 +22,7 @@
         </ul>
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="menu-button">
-            <img src="./assets/menu.webp" class="menu-icon">
+            <img src="./assets/menu.webp" alt="menu button" class="menu-icon">
         </label>
     </header>
     <main>
@@ -37,7 +37,7 @@
             </article>
             <article id="article1">
                 <div id="what">
-                    <h1>What is the Champions League?</h1>
+                    <h2>What is the Champions League?</h2>
                     <p>The Champions League is the greatest football tournament in the world, featuring the
                         best teams
                         in
@@ -52,7 +52,7 @@
                         competition </p>
                 </div>
                 <div id="how">
-                    <h1>How does it work?</h1>
+                    <h2>How does it work?</h2>
                     <p>The Champions League takes place every year and participating teams are qualified
                         directly from
                         their respective country leagues.
@@ -68,12 +68,11 @@
                 </div>
                 <div id="article1-pics">
                     <picture>
-                        <source src="./assets/ajax-team.webp">
+                        <source srcset="./assets/ajax-team.webp">
                          
                         <img id="seriea" src="./assets/seriea.png" title="Serie A table standings" alt="seriea" style="opacity: 1">
                     </picture>
                     <picture>
-                        <source src="./assets/first-champions.jpg">
                         <img src="./assets/ucl-brackets.webp" title="UCL brackets example" alt="ucl brackets" style="opacity: 1" >
                     </picture>
                 </div>
@@ -84,14 +83,14 @@
     <footer>
         <div id="form-box">
             <form id="contact-form" action="/submit-path" method="post">
-                <h2 class="ubuntu-medium">Contact us</h2>
+                <h3 class="ubuntu-medium">Contact us</h3>
                 <div class="ubuntu-regular" id="first-name">
-                    <label for="name-input">First Name:</label>
-                    <input type="text" id="name-input" name="first" required placeholder="Enter first name">
+                    <label for="name-input-f">First Name:</label>
+                    <input type="text" id="name-input-f" name="first" required placeholder="Enter first name">
                 </div>
                 <div class="ubuntu-regular" id="last-name">
-                    <label for="name-input">Last Name:</label>
-                    <input type="text" id="name-input" name="last" required placeholder="Enter last name">
+                    <label for="name-input-l">Last Name:</label>
+                    <input type="text" id="name-input-l" name="last" required placeholder="Enter last name">
                 </div>
 
                 <div class="ubuntu-regular" id="email-field">
@@ -118,6 +117,6 @@
                 <li><img class="" src="./assets/UEFAChampionsLeague.webp" style="width: 40px;" alt=""></li>
             </ul>
         </nav>
-        <p>&#169 2024 Champions League. All rights reserved. Developed by
+        <p>&#169; 2024 Champions League. All rights reserved. Developed by
             Diego Cevallos</p>
     </footer>
