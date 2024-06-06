@@ -144,3 +144,62 @@
     filter: invert(100%);
   }
   
+/* First Article */
+#section1 {
+    background: transparent;
+    width: 100%;
+    color: silver;
+    position: relative;
+  }
+  
+  h1 {
+    margin: 0px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--subtitle-color1);
+    text-align: center;
+  
+  }
+  
+  p {
+    padding: 30px;
+    margin: 0px
+  }
+  
+  #what {
+    background: linear-gradient(to bottom, black, transparent);
+    padding-top: 2%;
+  }
+  
+  #how {
+    background: linear-gradient(to top, black, transparent);
+  }
+  
+  #article1-pics {
+    background: linear-gradient(to bottom, black, transparent);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-wrap: nowrap;
+  
+  }
+  
+  #article1-pics picture {
+    height: 300px;
+  }
+  
+  #article1-pics img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #article1-pics #seriea {
+    min-height: 100px;
+    max-width: 100%;
+  }
+    
