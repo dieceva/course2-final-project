@@ -362,3 +362,89 @@ button {
   border-radius: 4px;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for Mobile Responsive Design */
+@media screen and (max-width: 640px) {
+
+    header {
+      max-height: 10%;
+      top: 0%;
+      justify-content: center;
+      padding-right: 10px;
+      background: transparent;
+    }
+  
+    .menu {
+      position: relative;
+      left: -100vw;
+      top: 13vh;
+      transition: left .55s ease;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  
+    .logo img {
+      width: 70px;
+    }
+  
+    #article1-pics {
+      flex-direction: column;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    #checkbox:checked~.menu {
+      left: -8vw;
+      border: solid;
+      border-color: red;
+    }
+  
+    #menu-toggle {
+      display: block;
+    }
+  
+    /* #checkbox:checked ~ .menu {
+      display: flex;
+      position: absolute
+    } */
+  
+    .menu-icon {
+      padding-right: 40px;
+      width: 60px;
+    }
+  
+    .menu-button {
+      display: inline-block;
+      cursor: pointer;
+    }
+  
+    footer ul {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0px;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+  
+    footer ul li {
+      padding: 4%;
+    }
+    footer a:hover {
+    border: solid;
+    border-width: 2px;
+    border-color: silver;
+    color: white;
+    }
+}
