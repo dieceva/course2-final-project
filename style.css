@@ -383,12 +383,25 @@ button {
     display: block;
   }
 
+/* FAQ styling */
+.FAQ{
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--header-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+  }
+  summary {
+    cursor: pointer;
+    padding: 20px;
+    background: var(--base-background);
+  }
 
 
 
 
 
-  
 
 
 
